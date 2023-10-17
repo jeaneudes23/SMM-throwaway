@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,700;6..12,900&display=swap" rel="stylesheet">    <script defer src="navbar.js"></script>  
+    <script defer src="script.js"></script>
+    <script defer src="gallery.js"></script>
+    <script defer src="menu.js"></script>
+ 
+    <title>Menu</title>
+</head>
+<style>
+    body{
+        font-family: "Nunito Sans", sans-serif;
+
+    }
+</style>
+<body>
+    <div class="container">
+        <div id="top"></div>
+        <nav class="nav-container">
+            <div class="nav-bar">
+                <a href="/" class="nav-brand">
+                    <img src="/assets/img/output-onlinepngtools.png" alt="">
+                    <span class="sr-only">Home</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a class="nav-link" href="/">Home</a></li>
+                    <li><a class="nav-link" href="/menu.html">Menu</a></li>
+                    <li><a class="nav-link" href="/contact.html">Contacts</a></li>
+                </ul>
+                <button class="nav-toggle">
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>                    </div>
+                    <div>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>                    </div>
+                </button>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="content">
+                <div>
+                    <img width="200px" src="/assets/img/output-onlinepngtools.png" alt="">
+                </div>
+                <h1 class="hero-xl-text">Welcome To Maison Noire</h1>
+                <h2>the premier restaurant located in kigali, kicukiro district</h2>
+                <p>
+                    For <span>Reservation call us </span>  at: <br> <span>+250788305758 / +250788301269</span>
+                </p> 
+                <div>
+                    <a class="fancy-link" href="#menu">
+                        <span>Open Our Menu</span> 
+                    </a>
+                </div>
+            </div>         
+            <div class="slide-container">
+                <img class="slide-img" src="/assets/img/food.jpg" alt="">
+                <img class="slide-img" src="/assets/img/food1.jpg" alt="">
+                <img class="slide-img" src="/assets/img/food3.jpg" alt="">
+            </div>
+        </div>       
+        <div id="menu" class="wrapper menu-section">                
+            <div class="header">        
+                <h1 class="menu-header">MAISON NOIRE MENU</h1>            
+            </div>
+            <div id="filters" class="filters-container">   
+                <div class="categories-container">
+                    <button data-show-categories class="categories-toggle">
+                        <span>Select Category</span>
+                        <svg fill="currentColor" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-128 -128 768.00 768.00" enable-background="new 0 0 512 512" xml:space="preserve" stroke="#000000" transform="rotate(180)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <polygon points="256,63.6 0,319.6 69.8,389.4 256,203.2 442.2,389.4 512,319.6 "></polygon> </g></svg>
+                        </button>
+                    <ul class="categories-list">
+                        <li><button data-filter>All</button></li>
+                        <li><button data-filter>Fish</button></li>
+                        <li><button data-filter>Drinks</button></li>
+                        <li><button data-filter>Bread</button></li>
+                        <li><button data-filter>Soup</button></li>
+                        <li><button data-filter>Eggs</button></li>
+                        <li><button data-filter>Eggs</button></li>
+                        <li><button data-filter>Eggs</button></li>
+                        <li><button data-filter>Eggs</button></li>
+                        <li><button data-filter>Eggs</button></li>
+                    </ul>
+                </div>
+                <div class="info">
+                    Showing <span data-shown-category>"All"</span>
+                </div>
+           
+            </div>
+            <div id="menu" class="menu-container">
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img loading="lazy" src="/assets/img/food.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Gish Filet
+                        </span>
+                        <span class="item-category">
+                            Fish
+                        </span>
+                        <span class="item-ingredients">
+                            With Ugali
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food1.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Helo 
+                        </span>
+                        <span class="item-category">
+                            Fish
+                        </span>
+                        <span class="item-ingredients">
+                            With Ugali
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Minolet
+                        </span>
+                        <span class="item-category">
+                            Fish
+                        </span>
+                        <span class="item-ingredients">
+                            With Ugali
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Amstel
+                        </span>
+                        <span class="item-category">
+                            Drinks
+                        </span>
+                        <span class="item-ingredients">
+                            Eaters
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food1.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Primus
+                        </span>
+                        <span class="item-category">
+                            Drinks
+                        </span>
+                        <span class="item-ingredients">
+                            Eaters
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Skol
+                        </span>
+                        <span class="item-category">
+                            Drinks
+                        </span>
+                        <span class="item-ingredients">
+                            Eaters
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Soup 1
+                        </span>
+                        <span class="item-category">
+                            Soup
+                        </span>
+                        <span class="item-ingredients">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur numquam deleniti magni repellat animi explicabo autem quae! Officiis totam asperiores exercitationem est nam possimus.
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food1.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Soup 2
+                        </span>
+                        <span class="item-category">
+                            Soup
+                        </span>
+                        <span class="item-ingredients">
+                            Drinks
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Soup 3
+                        </span>
+                        <span class="item-category">
+                            Soup
+                        </span>
+                        <span class="item-ingredients">
+                            Lorem ipsum dolor sit amet.
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Bread 1
+                        </span>
+                        <span class="item-category">
+                            Fish
+                        </span>
+                        <span class="item-ingredients">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum.
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Bread 2
+                        </span>
+                        <span class="item-category">
+                            Bread
+                        </span>
+                        <span class="item-ingredients">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum.
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Bread 3
+                        </span>
+                        <span class="item-category">
+                            Bread
+                        </span>
+                        <span class="item-ingredients">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum.
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Scrambled
+                        </span>
+                        <span class="item-category">
+                            Eggs
+                        </span>
+                        <span class="item-ingredients">
+                            FENDI
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Omel
+                        </span>
+                        <span class="item-category">
+                            Eggs
+                        </span>
+                        <span class="item-ingredients">
+                            FENDI
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img-container">
+                        <img src="/assets/img/food3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-name">
+                            Boiled
+                        </span>
+                        <span class="item-category">
+                            Eggs
+                        </span>
+                        <span class="item-ingredients">
+                            FENDI
+                        </span>
+                        <span class="item-price">
+                            7000 <span>RWF</span>
+                        </span>
+                        
+                    </div>
+                    <div class="overlay">
+                        <button class="fancy-link" data-show-item> <span>Show</span></button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <div class="content">
+                    <div>
+                        <h2>Business Time</h2>
+                        <div>
+                            <span>Monday-Friday: 24 hours</span>
+                            <span>Saturday: 24 hours</span>
+                            <span>Sunday: 24 hours</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Contact Us</h2>
+                        <div>
+                            <div><svg viewBox="-4 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>location</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-106.000000, -413.000000)" fill="#ffffff"> <path d="M118,422 C116.343,422 115,423.343 115,425 C115,426.657 116.343,428 118,428 C119.657,428 121,426.657 121,425 C121,423.343 119.657,422 118,422 L118,422 Z M118,430 C115.239,430 113,427.762 113,425 C113,422.238 115.239,420 118,420 C120.761,420 123,422.238 123,425 C123,427.762 120.761,430 118,430 L118,430 Z M118,413 C111.373,413 106,418.373 106,425 C106,430.018 116.005,445.011 118,445 C119.964,445.011 130,429.95 130,425 C130,418.373 124.627,413 118,413 L118,413 Z" id="location" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg> <span>Address:  Kigali Rwanda, Kicukiro</span></div>
+                            <div><svg viewBox="0 0 24 24" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 5.5C21 14.0604 14.0604 21 5.5 21C5.11378 21 4.73086 20.9859 4.35172 20.9581C3.91662 20.9262 3.69906 20.9103 3.50103 20.7963C3.33701 20.7019 3.18146 20.5345 3.09925 20.364C3 20.1582 3 19.9181 3 19.438V16.6207C3 16.2169 3 16.015 3.06645 15.842C3.12515 15.6891 3.22049 15.553 3.3441 15.4456C3.48403 15.324 3.67376 15.255 4.05321 15.117L7.26005 13.9509C7.70153 13.7904 7.92227 13.7101 8.1317 13.7237C8.31637 13.7357 8.49408 13.7988 8.64506 13.9058C8.81628 14.0271 8.93713 14.2285 9.17882 14.6314L10 16C12.6499 14.7999 14.7981 12.6489 16 10L14.6314 9.17882C14.2285 8.93713 14.0271 8.81628 13.9058 8.64506C13.7988 8.49408 13.7357 8.31637 13.7237 8.1317C13.7101 7.92227 13.7904 7.70153 13.9509 7.26005L13.9509 7.26005L15.117 4.05321C15.255 3.67376 15.324 3.48403 15.4456 3.3441C15.553 3.22049 15.6891 3.12515 15.842 3.06645C16.015 3 16.2169 3 16.6207 3H19.438C19.9181 3 20.1582 3 20.364 3.09925C20.5345 3.18146 20.7019 3.33701 20.7963 3.50103C20.9103 3.69907 20.9262 3.91662 20.9581 4.35173C20.9859 4.73086 21 5.11378 21 5.5Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><span> Phone: +250788305758 / +250788301269</span></div>
+                            <div><svg viewBox="0 -2.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>email [#1572]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -922.000000)" fill="#ffffff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M294,774.474 L284,765.649 L284,777 L304,777 L304,765.649 L294,774.474 Z M294.001,771.812 L284,762.981 L284,762 L304,762 L304,762.981 L294.001,771.812 Z" id="email-[#1572]"> </path> </g> </g> </g> </g></svg></i>Email: <a href="#">maisonnoire@gmail.com</a> </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>About Us</h2>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum inventore natus alias? Error sunt esse odio ipsum mollitia aut laudantium dignissimos pariatur quis iste.  <a href="#">More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-image">
+                    <img src="/assets/img/food3.jpg" alt="">
+                </div>
+            </div>
+            <div class="end">
+                All Rights Reserved <button data-show-admin-panel>MAISON NOIRE</button> © 2023 Developed By <a href="#">intambwesoftware</a> 
+            </div>
+        </footer>  
+        <div class="admin-login-form">
+            <div class="content">
+                <div>
+                    <h2>Login</h2>
+                    <button data-hide-admin-panel>
+                        &times;
+                    </button>
+                </div>
+                <form method="POST">
+                    <div>
+                        <label>Select your title:</label>
+                        <select class="form-control" required name="lusertitile">
+                            <option value="normaluser">Normal-user</option>
+                            <option value="administrator">Administrator</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Enter your phone:</label>
+                        <input type="text"  required placeholder="Enter your phone_no" name="luserphone">    
+                    </div>
+                    <div>
+                        <label>Enter your username:</label>
+                        <input type="text"  required placeholder="Enter your user_name" name="lusername">    
+                    </div>
+                    <div>
+                        <label>Enter your password:</label>
+                        <input type="password"  required placeholder="Enter your password" name="luserpassword">    
+                    </div>
+                    <button type="submit" name="userlogin">LOGIN</button>
+                </form>
+            </div>
+        </div>
+        <div class="utility-link top">
+            <a href="#top">
+                <svg viewBox="-8 -8 32.00 32.00" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" fill="#000000" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <metadata id="metadata7"> <rdf:rdf> <cc:work> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type> <dc:title></dc:title> <dc:date>2021</dc:date> <dc:creator> <cc:agent> <dc:title>Timothée Giet</dc:title> </cc:agent> </dc:creator> <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"></cc:license> </cc:work> <cc:license rdf:about="http://creativecommons.org/licenses/by-sa/4.0/"> <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"></cc:permits> <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"></cc:permits> <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"></cc:requires> <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"></cc:requires> <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"></cc:permits> <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"></cc:requires> </cc:license> </rdf:rdf> </metadata> <g id="layer1" transform="rotate(45 1254.793 524.438)"> <path style="fill:#373737;fill-opacity:1;fill-rule:evenodd;stroke-width:0.00016;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M4.468 1048.341h1.996v-9h9v-2h-11z" id="path4179"></path> </g> </g></svg>
+                <span class="sr-only">Scroll to top</span>
+            </a>
+        </div>
+        <div class="utility-link whatsapp">
+            <a href="">
+                <svg viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Whatsapp-color</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Color-" transform="translate(-700.000000, -360.000000)" fill="#67C15E"> <path d="M723.993033,360 C710.762252,360 700,370.765287 700,383.999801 C700,389.248451 701.692661,394.116025 704.570026,398.066947 L701.579605,406.983798 L710.804449,404.035539 C714.598605,406.546975 719.126434,408 724.006967,408 C737.237748,408 748,397.234315 748,384.000199 C748,370.765685 737.237748,360.000398 724.006967,360.000398 L723.993033,360.000398 L723.993033,360 Z M717.29285,372.190836 C716.827488,371.07628 716.474784,371.034071 715.769774,371.005401 C715.529728,370.991464 715.262214,370.977527 714.96564,370.977527 C714.04845,370.977527 713.089462,371.245514 712.511043,371.838033 C711.806033,372.557577 710.056843,374.23638 710.056843,377.679202 C710.056843,381.122023 712.567571,384.451756 712.905944,384.917648 C713.258648,385.382743 717.800808,392.55031 724.853297,395.471492 C730.368379,397.757149 732.00491,397.545307 733.260074,397.27732 C735.093658,396.882308 737.393002,395.527239 737.971421,393.891043 C738.54984,392.25405 738.54984,390.857171 738.380255,390.560912 C738.211068,390.264652 737.745308,390.095816 737.040298,389.742615 C736.335288,389.389811 732.90737,387.696673 732.25849,387.470894 C731.623543,387.231179 731.017259,387.315995 730.537963,387.99333 C729.860819,388.938653 729.198006,389.89831 728.661785,390.476494 C728.238619,390.928051 727.547144,390.984595 726.969123,390.744481 C726.193254,390.420348 724.021298,389.657798 721.340985,387.273388 C719.267356,385.42535 717.856938,383.125756 717.448104,382.434484 C717.038871,381.729275 717.405907,381.319529 717.729948,380.938852 C718.082653,380.501232 718.421026,380.191036 718.77373,379.781688 C719.126434,379.372738 719.323884,379.160897 719.549599,378.681068 C719.789645,378.215575 719.62006,377.735746 719.450874,377.382942 C719.281687,377.030139 717.871269,373.587317 717.29285,372.190836 Z" id="Whatsapp"> </path> </g> </g> </g></svg>
+                <span class="sr-only">whatsapp</span>
+            </a>
+        </div>  
+    </div>
+</body>
+</html>
